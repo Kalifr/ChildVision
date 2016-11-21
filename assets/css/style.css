@@ -1,0 +1,99 @@
+body{
+	background: #EBEBEB;
+}
+
+section{
+	margin-top: 50px;
+	margin-bottom: 40px;
+	padding: 50px 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5{
+	margin-top: 50px;
+	margin-bottom: 20px;
+}
+footer{
+	background: darkgray;
+	padding: 10px 0;
+	color: #EBEBEB;
+}
+#slideshow{
+	padding-top: 180px;
+	padding-bottom: 50px;
+	margin-top: 0px;
+}
+#slideshow img{
+	max-height: 450px;
+}
+
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 100%;
+      margin: auto;
+  }
+
+ .navbar-inverse{
+ 	background: #5B3523; /* #5B3523 #6D412D  #936452; */
+ }
+
+ #slideshow{
+ 	background: #6D412D;	
+ }
+
+ .navbar{
+ 	padding: 10px 0;
+ 	margin: 0;
+ }
+ #main-content{
+ 	margin-top: 0px;
+ 	padding-top: 0px;
+ 	background-position: 0 0;
+ }
+ .objective span{
+ 	text-align: center;
+ 	width: 120px;
+ 	height: 120px;
+ 	margin: 10px auto;
+ 	line-height: 120px;
+ 	font-size: 3em;
+ 	display: block;
+ 	color: white;
+ 	background: #6D412D;
+ 	border-radius: 50%;
+ 	-moz-border-radius: 50%;
+ 	-moz-border-radius: 50%;
+ }
+ .objective h3{
+ 	margin-top: 10px;
+ }
+ #projects{
+ 	background: #6D412D;
+ 	color: white;
+ }
+ #projects h2,
+ #projects h4{
+ 	color: #EBEBEB;
+ }
+ #projects h4{
+ 	margin: 10px 0;
+ }
+ #heroes{
+ 	background: url('../images/bkg.png');
+ 	background-size: cover;
+
+ }
+ .heroes-container{
+ 	background: white;
+ }
+.our-hero h4{
+	margin: 3px 0;
+}
+.our-hero img{
+	width: 100%;
+	max-width: 150px;
+	margin: 0 auto;
+	display: block;
+}
