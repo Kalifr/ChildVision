@@ -8,7 +8,7 @@
 	<meta name="author" content="">
 	<link rel="icon" href="">
 
-	<title>Kenya Child Vision &raquo; Contact us</title>
+	<title>Kenya Child Vision &raquo; Blog Post</title>
 
 	<!-- BOOTSTRAP CORE CSS -->
 	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
@@ -53,8 +53,8 @@
 						<li><a href="about.html">About</a></li>
 						<li><a href="blog.html">Blog</a></li>
 						<li><a href="projects.html">Projects</a></li>
-						<li class="active"><a href="contact.html">Contact</a></li>
-						<li><a href="#" data-toggle="modal" data-target="#myModal" class="donation-link">Make a donation</a></li>
+						<li><a href="contact.html">Contact</a></li>
+						<li class="active"><a href="#" data-toggle="modal" data-target="#myModal" >Make a donation</a></li>
 					</ul><!-- naV -->
 				</div><!-- navbar-collapse -->
 
@@ -74,54 +74,78 @@
 		<div class="container main-content">
 			<div class="row">
 				<main id="blog-section" class="col-md-8">
-					<h1 class="text-center">Contact Us</h1>
-					<p class="lead">Please fill out the form below to send us a message. We would love to hear from you.</p>
-					<form role="form" class="clearfix">
-						<div class="row">
-							<div class="col-sm-6">
-								<div class="form-group">
-									<label for="contact-name" class="sr-only">Name</label>
-									<input type="text" class="form-control" id="contact-name" placeholder="Your Name" name="">
-								</div> <!-- form-group -->
-							</div> <!-- col -->
-							<div class="col-sm-6">
-								<div class="form-group">
-									<label for="contact-email" class="sr-only">Email</label>
-									<input type="email" class="form-control" id="contact-email" placeholder="Your email" name="">
-								</div> <!-- form-group -->
-							</div> <!-- col -->
-							<div class="col-sm-12">
-								<div class="form-group">
-									<label for="contact-words" class="sr-only">Message</label>
-									<textarea class="form-control" id="contact-words" placeholder="Your message" rows="8"></textarea>
-								</div> <!-- form-group -->
-							</div> <!-- col -->
-						</div> <!-- row -->
+						<article class="post single-post">
+						<header>
+							<h1>This is how an article title will look like</h1>
+							<div class="post-details">
+								<i class="fa fa-user"></i> Author Name
+								<i class="fa fa-calendar"></i> <time>June 1, 2016</time>
+								<i class="fa fa-folder"></i> <a href="">Projects</a>
+								<i class="fa fa-tags"></i> Tagged <a href="">Tag1</a>, <a href="">Second tag</a>, <a href="">Another</a>
 
-						<input type="submit" class="btn btn-info btn-md pull-right" value="Send Message &raquo;" name="">
+								<div class="post-comments-badge">
+									<a href=""><i class="fa fa-comments"></i> 15</a>
+								</div> <!-- post-comments-badge -->
 
-					</form>
+							</div> <!-- post-details -->
+						</header>
+						<div class="post-image">
+							<img src="assets/images/blog.jpg" alt="Article image">
+						</div> <!-- post image -->
+						<div class="post-excerpt">
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+								quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+								consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+								cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+								proident, sunt in culpa qui.
+							</p>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga molestiae rerum, itaque esse perferendis impedit eum, saepe voluptatem veritatis distinctio praesentium. Nesciunt cupiditate dolores ut pariatur incidunt possimus molestias esse!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla non nemo ea accusamus tenetur id sint sapiente, placeat consectetur sed dolorem nihil aut ad labore officia possimus ipsam dolores? Totam!</p>
+							<h3>Sub title</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam harum illum repellat vero, natus porro ipsa commodi suscipit praesentium esse nostrum cumque recusandae saepe quam impedit maxime dolorum, iure ullam.</p>
+							<h4>Small Title</h4>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, sed voluptas quidem reiciendis, nemo nam odit? Deserunt laudantium, necessitatibus dignissimos dolor aspernatur hic dicta, nostrum libero est quas repudiandae aliquid.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime earum deleniti ducimus recusandae, pariatur, dolore quam est quos, excepturi voluptates totam ipsa blanditiis veniam. Ipsa odit pariatur voluptates neque ipsum.</p>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio eum quo quam nesciunt, temporibus nihil exercitationem aliquid adipisci, qui impedit repudiandae aspernatur labore illo consectetur fuga voluptatem eos dolorum iusto.</p>
+						</div> <!-- post excerpt -->
+						</article> <!-- post -->
 
 						
+					<ul class="pager">
+					  <li class="previous"><a href="#">&laquo; Next post</a></li>
+					  <li class="next"><a href="#">Previous post &raquo;</a></li>
+					</ul>
 
 				</main> <!-- end #blog-section -->
 
 				<aside id="sidebar" class="col-md-4">
-
 					<div class="widget">
-						<h4>Our contacts</h4>
-						<ul class="list-group">
-						  <li class="list-group-item"><i class="fa fa-phone"></i> +41 123456789</li>
-						  <li class="list-group-item"><i class="fa fa-envelope"></i> hope@kcv.org</li>
-						  <li class="list-group-item"><i class="fa fa-globe"></i> <a href="#">www.kcv.org</a></li>
-						</ul>
-					</div>
-					<div class="widget">
-						<h4>Make a donation</h4>
-						<p>It is funding from volunteers like you that keep us going. <strong>Make a donation today</strong> to help us keep on keeping on.</p>
-						<button class="btn btn-success btn-lg btn-block" data-toggle="modal" data-target="#myModal">Click here to make a donation</button>
-					</div> <!-- widget -->
+					<h4>Make a donation</h4>
+					<p>It is funding from volunteers like you that keep us going. <strong>Make a donation today</strong> to help us keep on keeping on.</p>
+					<button class="btn btn-success btn-lg btn-block" data-toggle="modal" data-target="#myModal">Click here to make a donation</button>
+				</div> <!-- widget -->
 				
+				
+				<div class="widget">
+					<h4>Recent Posts</h4>
+					<ul>
+						<li><a href="">Lorem ipsum dolor sit amet</a></li>
+						<li><a href="">Consectetur adipisicing elit</a></li>
+						<li><a href="">Nostrum, laudantium incidunt</a></li>
+						<li><a href="">Sed vel nostrum quidem</a></li>
+						<li><a href="">n fugit consectetur harum</a></li>
+					</ul>
+				</div><!-- widget -->
+				<div class="widget">
+					<h4>Categories</h4>
+					<ul>
+						<li><a href="">Lorem</a></li>
+						<li><a href="">adipisicing elit</a></li>
+						<li><a href="">Nostrcidunt</a></li>
+						<li><a href="">Sidem</a></li>
+						<li><a href="">Harum</a></li>
+					</ul>
+				</div><!-- widget -->
 				</aside> <!-- end #sidebar -->
 				
 				
