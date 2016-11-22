@@ -54,7 +54,7 @@
 						<li class="active"><a href="blog.html">Blog</a></li>
 						<li><a href="projects.html">Projects</a></li>
 						<li><a href="contact.html">Contact</a></li>
-						<li class="active"><a href="donate.html">Make a donation</a></li>
+						<li class="active"><a href="#" data-toggle="modal" data-target="#myModal" >Make a donation</a></li>
 					</ul><!-- naV -->
 				</div><!-- navbar-collapse -->
 
@@ -220,7 +220,17 @@
 	
 	<footer>
 		<div class="container">
-			&copy; Kenya Child Vision
+			<span class="pull-left">&copy; Kenya Child Vision</span>
+			<nav class="pull-right">
+				<ul class="list-unstyled list-inline">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="blog.html">Blog</a></li>
+					<li><a href="projects.html">Projects</a></li>
+					<li><a href="contact.html">Contact</a></li>
+					<li><a href="#" data-toggle="modal" data-target="#myModal" class="donation-link">Make a donation</a></li>
+				</ul>
+			</nav>
 		</div>
 	</footer>
 	
@@ -244,6 +254,63 @@
 		    interval: 400
 		});
 	</script>
+
+
+	<!-- MODAL -->
+	<div class="modal fade" id="myModal">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+					<h4 class="modal-title" id="myModalLabel">Make a donation</h4>
+				</div> <!-- modal-header -->
+
+				<div class="modal-body">
+					<p>Fill out your details below and choose a donation method.</p>
+					<form class="clearfix" role="form">
+						<div class="form-group col-md-6">
+							<label class="sr-only" for="subscribe-name">Your first name</label>
+							<input type="text" class="form-control" id="subscribe-name" placeholder="Your first name">
+						</div> <!-- form-group -->
+						<div class="form-group col-md-6">
+							<label class="sr-only" for="subscribe-email">Your email</label>
+							<input type="text" class="form-control" id="subscribe-email" placeholder="Your email">
+						</div> <!-- form-group -->
+						<div class="form-group col-md-6">
+							<label class="sr-only" for="subscribe-email">Organization</label>
+							<input type="text" class="form-control" id="amount" placeholder="Organization">
+						</div> <!-- form-group -->
+						<div class="form-group col-md-6">
+							<label class="sr-only" for="subscribe-email">Amount in USD</label>
+							<input type="text" class="form-control" id="amount" placeholder="Amount in USD">
+						</div> <!-- form-group -->
+						<div class="form-group col-md-12">
+							<label for="contact-words" class="sr-only">Notes</label>
+							<textarea class="form-control" id="" placeholder="Notes" rows="3"></textarea>
+						</div> <!-- form-group -->
+						<div class="form-group col-md-12">
+							Payment Method:  
+							<label class="radio-inline"><input type="radio" name="optradio"><i class="fa fa-paypal"></i></label>
+							<label class="radio-inline"><input type="radio" name="optradio"><i class="fa fa-cc-visa"></i></label>
+							<label class="radio-inline"><input type="radio" name="optradio"><i class="fa fa-google-wallet"></i></label>
+							<label class="radio-inline"><input type="radio" name="optradio"><i class="fa fa-cc-diners-club"></i></label>
+						</div> <!-- form-group -->
+						<input type="submit" class="btn btn-info pull-right" value="Make donation">
+					</form>
+					<hr>
+					<p>
+						<small>
+						Thank you for your donation. It is funding from volunteers like you that gives us the hope we need to continue.
+						</small>
+					</p>
+				</div> <!-- modal-body -->
+
+			</div> <!-- modal-content -->
+		</div> <!-- modal-dialog -->
+	</div> <!-- modal -->
+
+
 
 	<!-- BOOTSTRAP CORE JAVASCRIPT Placed at end of document so page load faster -->
 	<script src="assets/js/jquery-3.1.1.min.js"  type="text/javascript"></script>
