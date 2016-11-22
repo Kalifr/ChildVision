@@ -1,5 +1,6 @@
 body{
 	background: #EBEBEB;
+	font-size: 16px;
 }
 
 section{
@@ -15,14 +16,21 @@ h5{
 	margin-top: 50px;
 	margin-bottom: 20px;
 }
+header{
+	margin-bottom: 120px;
+}
 footer{
 	background: darkgray;
 	padding: 10px 0;
 	color: #EBEBEB;
 }
+article{
+	display: block;
+}
+img{
+	max-width: 100%;
+}
 #slideshow{
-	padding-top: 180px;
-	padding-bottom: 50px;
 	margin-top: 0px;
 }
 #slideshow img{
@@ -85,7 +93,7 @@ footer{
  	background-size: cover;
 
  }
- .heroes-container{
+ .heroes-container, .main-content{
  	background: white;
  }
 .our-hero h4{
@@ -96,4 +104,66 @@ footer{
 	max-width: 150px;
 	margin: 0 auto;
 	display: block;
+}
+.widget {
+    padding: 20px;
+}
+.post, .widget, #comments {
+    position: relative;
+    border: solid 1px #ddd;
+    background: white;
+    margin: 0 0 40px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+.post header, .post .post-excerpt, .post .post-body, #comments .comments-wrap {
+    padding: 20px;
+}
+.post-image img {
+    width: 100%;
+    height: auto;
+}
+.post header{
+	margin: 10px 0;
+}
+
+.post-details {
+    font-size: 12px;
+    width: 90%;
+}
+.post-comments-badge {
+    height: 70px;
+    width: 70px;
+    position: absolute;
+    top: 25px;
+    right: 20px;
+    border: none;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    background: #6D412D;
+    text-align: center;
+    display: table;
+}
+.post-comments-badge a {
+    display: table-cell;
+    vertical-align: middle;
+    color: white;
+    font-size: 20px;
+    line-height: 20px;
+}
+.post header h1, .post header h3, .widget h4 {
+    margin: 0 0 15px;
+    padding: 0 0 15px;
+    border-bottom: solid 1px #ddd;
+}
+#sidebar{
+	padding-top: 100px;
+}
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover{
+	background: none;
+}
+.actionbar-text{
+	color: #EBEBEB;
 }
