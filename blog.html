@@ -34,6 +34,10 @@
 		<div class="navbar-wrapper">
 			
 		<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+		
+			<div class="actionbar clearfix" id="actionbar">
+				<div class="container actionbar-text"><span class="pull-right"><i class="fa fa-phone"></i> Helpline No: +41 123456789</span></div>
+			</div>
 			
 			<div class="container">
 				
@@ -47,14 +51,14 @@
 					<a href="index.html" class="navbar-left"><img src="assets/images/kcv_logo.png" width="100"></a>
 				</div> <!-- navbar-header -->
 				<div class="navbar-collapse collapse">
-					<div class="text-right actionbar-text"><i class="fa fa-phone"></i> Helpline No: +41 123456789</div>
+					
 					<ul class="nav navbar-nav navbar-right">
 						<li><a href="index.html">Home</a></li>
 						<li><a href="about.html">About</a></li>
 						<li class="active"><a href="blog.html">Blog</a></li>
 						<li><a href="projects.html">Projects</a></li>
 						<li><a href="contact.html">Contact</a></li>
-						<li><a href="#" data-toggle="modal" data-target="#myModal" class="donation-link">Make a donation</a></li>
+						<li class="active" ><a href="#" data-toggle="modal" data-target="#myModal">Make a donation</a></li>
 					</ul><!-- naV -->
 				</div><!-- navbar-collapse -->
 
@@ -62,7 +66,7 @@
 
 		
 		</div> <!-- navbar -->
-	</header> 
+	</header>  
 
 	<!--====  End of HEADER SECTION  ====-->
 	
@@ -220,9 +224,28 @@
 	
 	<footer>
 		<div class="container">
-			<span class="pull-left">&copy; Kenya Child Vision</span>
-			<nav class="pull-right">
-				<ul class="list-unstyled list-inline">
+			<div class="col-md-4">
+				<h4>Our Address</h4>
+				<p>Kenya-ChildVision e.V.<br>
+				Hasengartenstr. 42<br>
+				65189 Wiesbaden<br>
+				Deutschland</p>
+				<p>
+				Tel.: 0611-8903 7177<br>
+				Fax: 0611-8903 7179<br>
+				E-Mail: info@kenya-childvision.org
+				</p>
+				<p>
+				Unsere Bankverbindung:<br>
+				Wiesbadener Volksbank eG<br>
+				IBAN:DE69510900000001051903<br>
+				BIC: WIBADE5W<br>
+				</p>
+			</div>
+			<div class="col-md-4">
+				<h4>Navigation</h4>
+				<nav>
+				<ul class="list-unstyled">
 					<li><a href="index.html">Home</a></li>
 					<li><a href="about.html">About</a></li>
 					<li><a href="blog.html">Blog</a></li>
@@ -231,7 +254,25 @@
 					<li><a href="#" data-toggle="modal" data-target="#myModal" class="donation-link">Make a donation</a></li>
 				</ul>
 			</nav>
+			</div>
+			<div class="col-md-4">
+				<h4 class="">Subscribe to our newsletter</h4>
+				<p>
+				Ja, ich möchte regelmäßig informiert werden. Bitte tragen Sie Ihre E-Mail-Adresse ein, um den Newsletter zu erhalten. Wichtig: Ihre Daten werden ausschließlich von der Kenia-Hilfe Wiesbaden e.V. verwendet und NICHT weitergegeben.
+				</p>
+				<form>
+					<div class="form-group">
+						<label for="newsletter-email" class="sr-only">Email</label>
+						<input type="text" class="form-control input-lg" id="newsletter-email" placeholder="Your email" name="">
+					</div> <!-- form-group -->
+					<input type="submit" class="btn btn-info btn-lg pull-right" value="Subscribe" name="">
+				</form>
+			</div>
+			<div class="col-md-12">
+			<p class="text-center">&copy; Kenya Child Vision</p>
+			</div>
 		</div>
+		
 	</footer>
 	
 	<!--====  End of FOOTER SECTION  ====-->
@@ -246,14 +287,6 @@
 
 
 
-
-	
-	<script type="text/javascript">
-		// Sets #mySlide slideshow speed?
-		    $('#mySlide').carousel({
-		    interval: 400
-		});
-	</script>
 
 
 	<!-- MODAL -->
@@ -316,5 +349,15 @@
 	<script src="assets/js/jquery-3.1.1.min.js"  type="text/javascript"></script>
 	<script src="assets/js/bootstrap.min.js" type="text/javascript"></script>
 	<script src="assets/js/main.js" type="text/javascript"></script>
+	
+	
+	
+	<script type="text/javascript">
+		// Sets #mySlide slideshow speed?
+		    $('#mySlide').carousel({
+		    interval: 3500
+		});
+	</script>
+	
 </body>
 </html>
